@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".splitBill"
-            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:windowSoftInputMode="adjustPan|adjustResize"
 
             >
 
