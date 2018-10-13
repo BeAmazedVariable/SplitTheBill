@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splitBill">
+
+    <ImageView
+        android:id="@+id/imgRestaurant2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/imgRestaurant"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restaurant" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="443dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/trans_white_rectangle"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtBill"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/rounded_white"
+                android:drawableStart="@drawable/ic_attach_money_black_24dp"
+                android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                android:drawablePadding="5dp"
+                android:hint="@string/txtBill"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/txtPeople"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/rounded_white"
+                android:drawableStart="@drawable/ic_people_black_24dp"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+                android:drawablePadding="5dp"
+                android:hint="@string/txtPeople"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingEnd="10dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spnTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginBottom="15dp"
+        android:background="#a6ffffff"
+        android:entries="@array/txtSatisfaction"
+        android:prompt="@string/prompt"
+        android:spinnerMode="dialog">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/btnSplit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="286dp"
+        android:background="@drawable/register_button"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btnSplit"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtBillResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtTipResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:textSize="18sp"
+        app:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtBye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtBillResult"
+        android:layout_alignLeft="@+id/txtBillResult"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-29dp"
+        android:layout_marginLeft="-29dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:fontFamily="@font/alex_brush"
+        />
+</RelativeLayout>

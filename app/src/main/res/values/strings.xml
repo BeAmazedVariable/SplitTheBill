@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Split The Bill</string>
+    <string name="btnBill">Click here</string>
+    <string name="imgLogo">App logo</string>
+    <string name="imgRestaurant">Restaurant Image</string>
+    <string name="txtBill">Enter Your Bill</string>
+    <string name="txtPeople">Number of People</string>
+    <string name="btnSplit">Split the bill</string>
+    <string name="prompt">How are our services ?</string>
+    <string-array name="txtSatisfaction">
+        <item>Excellent(15%)</item>
+        <item>Average(10%)</item>
+        <item>Poor(5%)</item>
+    </string-array>
+    <string name="txtThanks">Thanks you ! Hope to serve you again soon !</string>
+</resources>
