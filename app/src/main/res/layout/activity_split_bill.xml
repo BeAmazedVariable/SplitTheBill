@@ -116,9 +116,12 @@
         android:id="@+id/txtBillResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="188dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="194dp"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
         app:fontFamily="sans-serif" />
@@ -127,23 +130,25 @@
         android:id="@+id/txtTipResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="151dp"
+        android:layout_marginBottom="150dp"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        app:fontFamily="sans-serif" />
+        app:fontFamily="sans-serif"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:id="@+id/txtTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="112dp"
         android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        app:fontFamily="sans-serif" />
+        app:fontFamily="sans-serif"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:id="@+id/txtBye"
@@ -152,11 +157,11 @@
         android:layout_alignStart="@+id/txtBillResult"
         android:layout_alignLeft="@+id/txtBillResult"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-29dp"
-        android:layout_marginLeft="-29dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginBottom="23dp"
         android:gravity="center_horizontal|fill_horizontal"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:fontFamily="@font/alex_brush" />
+        app:fontFamily="@font/cinntra" />
 </RelativeLayout>
