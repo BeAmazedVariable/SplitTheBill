@@ -121,9 +121,12 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="69dp"
         android:layout_marginLeft="69dp"
-        android:layout_marginBottom="193dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="224dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:textSize="14sp"
+        android:layout_centerHorizontal="true"
         app:fontFamily="@font/cinntra" />
 
     <TextView
@@ -135,10 +138,13 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="70dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginBottom="151dp"
+        android:layout_marginBottom="171dp"
         android:textColor="@color/white"
         android:textSize="14sp"
-        app:fontFamily="@font/cinntra" />
+        android:layout_marginRight="69dp"
+        app:fontFamily="@font/cinntra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/txtTotal"
@@ -147,12 +153,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginLeft="69dp"
-        android:layout_marginBottom="113dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="122dp"
         android:textColor="@color/white"
         android:textSize="14sp"
-        app:fontFamily="@font/cinntra" />
+        android:layout_marginRight="69dp"
+        app:fontFamily="@font/cinntra"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/txtBye"
@@ -161,11 +170,13 @@
         android:layout_alignStart="@+id/txtBillResult"
         android:layout_alignLeft="@+id/txtBillResult"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginLeft="-2dp"
-        android:layout_marginBottom="23dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="52dp"
         android:gravity="center_horizontal|fill_horizontal"
         android:textColor="@color/white"
         android:textSize="18sp"
+        android:layout_centerHorizontal="true"
         app:fontFamily="@font/cinntra" />
 </RelativeLayout>
