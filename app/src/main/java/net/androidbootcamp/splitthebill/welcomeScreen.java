@@ -1,6 +1,7 @@
 package net.androidbootcamp.splitthebill;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,7 @@ public class welcomeScreen extends AppCompatActivity {
 
         //Initiate instance of an object
         Button moveToSplit = findViewById(R.id.btnBill);
+
 
         //Make actions when the user click the button
         moveToSplit.setOnClickListener(new View.OnClickListener() {

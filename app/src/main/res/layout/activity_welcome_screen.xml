@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:contentDescription="@string/imgRestaurant"
         android:scaleType="centerCrop"
-        android:src="@drawable/restaurant" />
+        android:src="@drawable/background" />
 
     <ImageView
         android:id="@+id/imLogo"
@@ -33,10 +33,10 @@
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
         android:layout_marginBottom="175dp"
-        android:background="@drawable/register_button"
+        android:background="@drawable/custom_button"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/btnBill"
-        android:textColor="@color/white"
+        android:textColor="#003652"
         android:textStyle="normal" />
 </RelativeLayout>

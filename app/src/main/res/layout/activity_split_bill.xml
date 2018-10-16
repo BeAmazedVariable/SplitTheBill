@@ -18,7 +18,7 @@
         android:layout_marginTop="0dp"
         android:contentDescription="@string/imgRestaurant"
         android:scaleType="centerCrop"
-        android:src="@drawable/restaurant" />
+        android:src="@drawable/background" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -104,12 +104,13 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="286dp"
-        android:background="@drawable/register_button"
+        android:background="@drawable/custom_button"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/btnSplit"
-        android:textColor="@color/white"
-        android:textStyle="normal" />
+        android:textColor="#003652"
+        android:textStyle="normal"
+        />
 
     <TextView
         android:id="@+id/txtBillResult"
@@ -118,10 +119,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="188dp"
+        android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        app:fontFamily="sans-serif"
-        android:textColor="@color/white"
-        />
+        app:fontFamily="sans-serif" />
 
     <TextView
         android:id="@+id/txtTipResult"
@@ -130,10 +130,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="151dp"
+        android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        app:fontFamily="sans-serif"
-        android:textColor="@color/white"
-        />
+        app:fontFamily="sans-serif" />
 
     <TextView
         android:id="@+id/txtTotal"
@@ -142,10 +141,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="110dp"
+        android:textColor="@color/colorAccent"
         android:textSize="18sp"
-        app:fontFamily="sans-serif"
-        android:textColor="@color/white"
-        />
+        app:fontFamily="sans-serif" />
 
     <TextView
         android:id="@+id/txtBye"
@@ -160,6 +158,5 @@
         android:gravity="center_horizontal|fill_horizontal"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
-        app:fontFamily="@font/alex_brush"
-        />
+        app:fontFamily="@font/alex_brush" />
 </RelativeLayout>
