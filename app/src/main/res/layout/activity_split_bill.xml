@@ -144,7 +144,8 @@
         android:layout_marginRight="69dp"
         app:fontFamily="@font/cinntra"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="69dp" />
 
     <TextView
         android:id="@+id/txtTotal"
@@ -161,7 +162,8 @@
         android:layout_marginRight="69dp"
         app:fontFamily="@font/cinntra"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="69dp" />
 
     <TextView
         android:id="@+id/txtBye"
