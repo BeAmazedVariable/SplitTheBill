@@ -2,7 +2,7 @@
     <string name="app_name">Split The Bill</string>
     <string name="btnBill">Click here</string>
     <string name="imgLogo">App logo</string>
-    <string name="imgRestaurant">Restaurant Image</string>
+    <string name="imgBackground">Blue background Image</string>
     <string name="txtBill">Enter Your Bill</string>
     <string name="txtPeople">Number of People</string>
     <string name="btnSplit">Split the bill</string>
